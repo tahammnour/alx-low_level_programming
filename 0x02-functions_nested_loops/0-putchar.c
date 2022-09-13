@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - print _putchar
- *	 
+ * main - prints Putchar
+ *
  * Description: print text with argument
  *
- * Return: value char of word _puthchar
+ * Return: 0 value char of word _puthchar
  */
 
 int main(void)
