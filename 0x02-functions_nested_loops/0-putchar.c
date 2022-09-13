@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
-
+ *	 
  * Description: print text with argument
  *
  * Return: value char of word _puthchar
