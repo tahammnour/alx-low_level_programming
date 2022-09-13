@@ -1,41 +1,31 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success/completed)
+ * Return: alway returns 0
+ *
  */
 int main(void)
-
 {
-int number_left;
-int number_right;
+	int i;
+	int j;
 
-
-for (number_left = 48; number_right <= 78; number_left++)
-{
-for (number_right = number_left + 1 ; number_right <= 78; number_right++)
-{
-
-putchar(number_left);
-putchar (number_right);
-
-
-if ((number_left == 56) && (number_right == 78))
-{
-break;
-}
-
-putchar(',');
-putchar (' ');
-
-}
-
-}
-
-putchar('\n');
-
-
-return (0);
-
-
+	for (i = 10; i <= 19; i++)
+	{
+		for (j = 10; j <= 19; j++)
+		{
+			if ((j % 10) > (i % 10))
+			{
+				putchar((i % 10) + '0');
+				putchar((j % 10) + '0');
+				if (i != 18 || j != 19)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
