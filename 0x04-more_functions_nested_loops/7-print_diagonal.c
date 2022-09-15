@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draw \
- * @n: print space and \ then new line
+ * @n: param that print space and \ then new line
  */
 void print_diagonal(int n)
 {
