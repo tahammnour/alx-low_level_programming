@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* main - set number to positive_or_negative(i)
-*
-* Description: know if number positive or negative
-*
-* Return: 0
-*/
+ * main - set number to positive_or_negative(i)
+ *
+ * Description: know if number positive or negative
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
