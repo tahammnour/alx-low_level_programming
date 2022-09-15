@@ -1,10 +1,9 @@
-
 #include "main.h"
 
 /**
- * main - set number to positive or negative
+ * main - Debugging.
  *
- * Return: always 0
+ * Return: 0
  */
 
 int main(void)
