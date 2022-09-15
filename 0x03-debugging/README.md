@@ -1,1 +1,1 @@
-**Here we learn about gebugging**
+**Here we learn about debugging**
