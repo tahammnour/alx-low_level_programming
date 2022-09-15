@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - print 10 raw 
+ * more_numbers - print 11 raw
  * every raw contain 14 number
  */
 void more_numbers(void)
