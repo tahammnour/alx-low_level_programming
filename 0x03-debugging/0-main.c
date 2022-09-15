@@ -3,8 +3,6 @@
 /**
  * main - set number to positive or negative
  *
- * Description: know if number positive or negative
- *
  * Return: always 0
  */
 
