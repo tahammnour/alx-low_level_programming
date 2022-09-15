@@ -2,7 +2,8 @@
 
 /**
  * print_diagonal - draw \
- * @n: param that print space and \ then new line
+ *
+ * @n: print space and \ then new line
  */
 void print_diagonal(int n)
 {
@@ -26,3 +27,4 @@ void print_diagonal(int n)
 		}
 	}
 }
+Footer
