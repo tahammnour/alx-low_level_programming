@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
-* main - set number to positive_or_negative(i) 
+* main - set number to positive_or_negative(i)
+*
 * Description: know if number positive or negative
+*
 * Return: 0
 */
 
