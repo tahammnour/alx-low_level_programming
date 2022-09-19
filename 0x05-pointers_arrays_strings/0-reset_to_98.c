@@ -2,7 +2,7 @@
 
 /**
  *reset_to_98 - function to change int to 98
- *@n: pointer get value 98
+ *@p: pointer get value 98
  *
  *Return: nothing
  */
