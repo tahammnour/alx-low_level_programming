@@ -1,17 +1,19 @@
-#include "holberton.h"
 
+#include "main.h"
 /**
- * _strlen - checks the length of a string
- * @s: string to check
- *
- * Return: int length of the string
- */
+ * _puts - print text with new line
+ * @str: pointer to print
+ * Return: nothing
+*/
 
-int _strlen(char *s)
+
+void _puts(char *str)
 {
-	int length = 0;
-
-	while (s[length])
-		length++;
-	return (length);
+int i = 0;
+while (str[i])
+{
+	_putchar(str[i]);
+	i++;
+}
+_putchar('\n');
 }
