@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen - get length char 
+ * _strlen - get length char
  * @s: pointer char
  *
  * Return: nothing
