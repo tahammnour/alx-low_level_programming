@@ -1,14 +1,17 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
-* _puts -> this is a function that puts
-* @str: a param to _puts function
-*/
-void _puts(char *str)
+ * _strlen - checks the length of a string
+ * @s: string to check
+ *
+ * Return: int length of the string
+ */
+
+int _strlen(char *s)
 {
-	for (; *str != '\0'; str++)
-	{
-		_putchar(*str);
-	}
-	_putchar('\n');
+	int length = 0;
+
+	while (s[length])
+		length++;
+	return (length);
 }
