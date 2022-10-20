@@ -21,3 +21,4 @@ typedef struct list_s
 
 int _putchar(char);
 size_t print_list(const list_t *h);
+#endif /* _LISTS_H_ */
